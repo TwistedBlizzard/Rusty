@@ -2,28 +2,37 @@ class Hardpoint:
     pass
 
 class CraneArm(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 50
 
 class BigCraneArm(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 75
 
 class Turret(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 200
 
 class SwivelMount(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 125
 
 class Front(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class Rear(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class Left(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class Right(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class Concealed(Hardpoint):
-    pass
+    def __init__(self):
+        self.cost = 75

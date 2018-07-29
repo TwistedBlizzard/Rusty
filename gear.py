@@ -2,25 +2,32 @@ class Gear:
     pass
 
 class Targetter(Gear):
-    pass
+    def __init__(self):
+        self.cost = 125
 
 class PowerSteering(Gear):
-    pass
+    def __init__(self):
+        self.cost = 175
 
 class Toolbox(Gear):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class LaserReflectiveBodywork(Gear):
-    pass
+    def __init__(self):
+        self.cost = 50
 
 class Kevlar(Gear):
-    pass
+    def __init__(self):
+        self.cost = 75
 
 class FireProofing(Gear):
-    pass
+    def __init__(self):
+        self.cost = 75
 
 class ReinforcedBodywork(Gear):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class RammingGear(Gear):
     pass
@@ -29,52 +36,69 @@ class Tombstone(Gear):
     pass
 
 class OilSlick(Gear):
-    pass
+    def __init__(self):
+        self.cost = 50
 
 class WheelSpikes(Gear):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class ForceField(Gear):
-    pass
+    def __init__(self):
+        self.cost = 150
 
 class LaserSight(Gear):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class ReactiveSteering(Gear):
-    pass
+    def __init__(self):
+        self.cost = 25
 
 class ToolKit(Gear):
-    pass
+    def __init__(self):
+        self.cost = 50
 
 class NanoArmour(Gear):
-    pass
+    def __init__(self):
+        self.cost = 75
 
 class FaradayCage(Gear):
-    pass
+    def __init__(self):
+        self.cost = 50
 
 class AcidProofing(Gear):
-    pass
+    def __init__(self):
+        self.cost = 50
 
 class HeavyArmour(Gear):
-    pass
+    def __init__(self):
+        self.cost = 175
 
 class AIReactiveSteering(Gear):
-    pass
+    def __init__(self):
+        self.cost = 50
 
 class IncindiaryRounds(Gear):
-    pass
+    def __init__(self):
+        self.cost = 125
 
 class PiercingRounds(Gear):
-    pass
+    def __init__(self):
+        self.cost = 125
 
 class CorrosiveRounds(Gear):
-    pass
+    def __init__(self):
+        self.cost = 125
 
 class Turbo(Gear):
-    pass
+    def __init__(self):
+        self.cost = 75
 
 class NitroBoost(Gear):
-    pass
+    def __init__(self):
+        self.cost = 100
 
 class SynthHydrozine(Gear):
-    pass
+    def __init__(self):
+        self.cost = 50

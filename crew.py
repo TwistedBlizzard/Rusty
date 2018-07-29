@@ -2,40 +2,53 @@ class CrewMember:
     pass
 
 class Psycho(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 150
 
 class AverageJoe(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 0
 
 class TheProfessional(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 150
 
 class SteadyEddie(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 75
 
 class Leadfoot(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 75
 
 class CoolHand(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 175
 
 class Outcast(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 125
 
 class Deadeye(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 100
 
 class Sarge(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 175
 
 class HotStuff(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 125
 
 class GetawayDriver(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 175
 
 class AIModule(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 225
 
 class GreaseMonkey(CrewMember):
-    pass
+    def __init__(self):
+        self.cost = 50
