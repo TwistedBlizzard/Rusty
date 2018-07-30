@@ -1,8 +1,11 @@
 class Vehicle:
-    def add_hardpoint(self):
-        self.hardpoints += 1
-    def remove_hardpoint(self):
-        self.hardpoints -= 1
+    def __init__(self):
+        self.ve_turns = True
+        self.e_turns = True
+        self.m_turns = True
+        self.h_turns = True
+        self.vh_turns = True
+        self.i_turns = True
     def set_name(self, name):
         self.name = name
     def set_description(self, description):
@@ -16,7 +19,6 @@ class Motorcycle(Vehicle):
         self.crew = 1
         self.hardpoints = 1
         self.targeting = -2
-
 
 class Dunebuggy(Vehicle):
     def __init__(self):
@@ -44,6 +46,9 @@ class LargePickup(Vehicle):
         self.crew = 4
         self.hardpoints = 4
         self.targeting = 1
+        self.h_turns = False
+        self.vh_turns = False
+        self.i_turns = False
 
 class BigRig(Vehicle):
     def __init__(self):
@@ -53,3 +58,7 @@ class BigRig(Vehicle):
         self.crew = 5
         self.hardpoints = 5
         self.targeting = 2
+        self.m_turns = False
+        self.h_turns = False
+        self.vh_turns = False
+        self.i_turns = False
